@@ -2,7 +2,6 @@
 Jupyter notebooks on concepts from numerical/computational linear algebra. Inspired by Professor Rachel Thomas' class on computational linear algebra.
 
 ## Topics covered
-Markup :
 * Truncated SVD
 * Non-negative matrix factorization (NMF)
 * Principal component analysis (PCA)
@@ -11,7 +10,6 @@ Markup :
 * Divide-and-conquer eigenvalue algorithm (Cuppen) (in progress)
 
 ## Topics to be covered
-Markup :
 * Cholesky decomposition
 * Krylov subspaces
 * Preconditioners
