@@ -8,18 +8,23 @@ Inspired by [Professor Rachel Thomas' class on computational linear algebra](htt
 * Principal component analysis (PCA)
 * Lp-spaces and p-norms (Lp-spaces incomplete)
 * Preconditioners
+  * Jacobi method
   * Cholesky factorization
-
-## Topics to be covered
-* Divide-and-conquer eigenvalue algorithm (Cuppen) (in progress)
-* Preconditioners
-  * Incomplete LU factorization
+  * LDL factorization
   * Successive over-relaxation (SOR)
   * Symmetric successive over-relaxation (SSOR)
+  * Incomplete LU factorization
+* Eigenvalue algorithms
+  * Inverse iteration
+  * Rayleigh quotient iteration
+
+## Topics to be covered
+* Preconditioners
+* Eigenvalue algorithms
+  * Divide-and-conquer eigenvalue algorithm (Cuppen) (in progress)
 * Krylov subspaces
 * Gauss-Legendre quadrature
 * Conjugate gradient
-* Rayleigh quotient iteration
 * Power Method with shifts and deflation
 * QR algorithm with Wilkinson shifts
 * Golub-Kahan bidiagonalization with Householder reflectors
@@ -27,3 +32,7 @@ Inspired by [Professor Rachel Thomas' class on computational linear algebra](htt
 * Monte Carlo methods
 * Lanczos algorithm
 * *k*-means and *c*-means clustering
+
+## Creating Conda environment
+1. conda env create -f environment.yml
+2. conda activate num-lin-alg
