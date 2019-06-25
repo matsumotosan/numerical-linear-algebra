@@ -36,3 +36,7 @@ Inspired by [Professor Rachel Thomas' class on computational linear algebra](htt
 ## Creating Conda environment
 1. conda env create -f environment.yml
 2. conda activate num-lin-alg
+
+## Resources
+[fast.ai Computational Linear Algebra course](https://www.fast.ai/2017/07/17/num-lin-alg/)
+[Matrix Computations by Gene H. Golub and Charles F. Van Loan (4th Ed.)](https://www.amazon.com/Computations-Hopkins-Studies-Mathematical-Sciences/dp/1421407949)
