@@ -39,4 +39,5 @@ Inspired by [Professor Rachel Thomas' class on computational linear algebra](htt
 
 ## Resources
 [fast.ai Computational Linear Algebra course](https://www.fast.ai/2017/07/17/num-lin-alg/)
+[Numerical Linear Algebra by Lloyd N. Trefethen and David Bau III](https://www.amazon.com/Numerical-Linear-Algebra-Lloyd-Trefethen/dp/0898713617)
 [Matrix Computations by Gene H. Golub and Charles F. Van Loan (4th Ed.)](https://www.amazon.com/Computations-Hopkins-Studies-Mathematical-Sciences/dp/1421407949)
