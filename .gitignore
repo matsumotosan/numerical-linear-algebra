@@ -6,3 +6,5 @@ temp
 articles
 .ipynb_checkpoints
 __temp__.mp4
+*.py
+*.pyc
