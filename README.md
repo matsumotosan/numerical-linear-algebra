@@ -6,6 +6,8 @@ Inspired by [Professor Rachel Thomas' class on computational linear algebra](htt
 - [x] SVD and truncated SVD
 - [x] Non-negative matrix factorization (NMF) and sparse NMF
 - [x] Principal component analysis (PCA) and robust PCA
+- [] QR factorization
+  - [] QR algorithm with Wilkinson shifts
 - [x] p-norms
 - [] Lp-spaces
 - [] Preconditioners
@@ -21,14 +23,16 @@ Inspired by [Professor Rachel Thomas' class on computational linear algebra](htt
   - [] Sparse approximate inverse (SPAI)
   - [] MR algorithm
 - [] Eigenvalue algorithms
-  - [] Cuppen's divide-and-conquer eigenvalue algorithm
+  - [] Power iteration
   - [] Inverse iteration
   - [] Rayleigh quotient iteration
+  - [] Arnoldi iteration
+  - [] Lanczos algorithm
+  - [] Cuppen's divide-and-conquer eigenvalue algorithm
+- [] Conjugate gradient method
 - [] Krylov subspaces
 - [] Gauss-Legendre quadrature
-- [] Conjugate gradient
 - [] Power Method with shifts and deflation
-- [] QR algorithm with Wilkinson shifts
 - [] Golub-Kahan bidiagonalization with Householder reflectors
 - [] GMRES (generalized minimal residual)
 - [] Monte Carlo methods
