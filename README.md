@@ -10,6 +10,7 @@ Inspired by [Professor Rachel Thomas' class on computational linear algebra](htt
   - [] QR algorithm with Wilkinson shifts
 - [x] p-norms
 - [] Lp-spaces
+- [] Regularization
 - [] Preconditioners
   - [x] Jacobi
   - [x] Gauss-Seidel
