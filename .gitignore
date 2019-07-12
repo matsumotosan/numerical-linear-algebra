@@ -6,5 +6,7 @@ temp
 articles
 .ipynb_checkpoints
 __temp__.mp4
-*.py
 *.pyc
+opt_test
+cnmf_ex.py
+playground.py
