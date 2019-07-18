@@ -30,18 +30,21 @@ Inspired by [Professor Rachel Thomas' class on computational linear algebra](htt
   - [] Arnoldi iteration
   - [] Lanczos algorithm
   - [] Cuppen's divide-and-conquer eigenvalue algorithm
-- [] Conjugate gradient method
+- [x] Conjugate gradient method
 - [] Krylov subspaces
 - [] Gauss-Legendre quadrature
 - [] Power Method with shifts and deflation
 - [] Golub-Kahan bidiagonalization with Householder reflectors
-- [] GMRES (generalized minimal residual)
+- [] Generalized minimal residual method (GMRES)
 - [] Monte Carlo methods
 - [] Lanczos algorithm
 - [] *k*-means and *c*-means clustering
+- [x] Optimization test problems
+- [] Convex optimization
 
 ## Possible future topics
-  * [PyTorch optimization algorithms](https://pytorch.org/docs/stable/optim.html)
+- [PyTorch optimization algorithms](https://pytorch.org/docs/stable/optim.html)
+- Graduated optimization
 
 ## Creating Conda environment
 1. conda env create -f environment.yml
