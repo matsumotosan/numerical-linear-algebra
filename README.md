@@ -24,8 +24,8 @@ Inspired by [Professor Rachel Thomas' class on computational linear algebra](htt
   - [ ] Sparse approximate inverse (SPAI)
   - [ ] MR algorithm
 - [ ] Eigenvalue algorithms
-  - [ ] Power iteration
-  - [ ] Inverse iteration
+  - [x] Power iteration
+  - [x] Inverse iteration
   - [ ] Rayleigh quotient iteration
   - [ ] Arnoldi iteration
   - [ ] Lanczos algorithm
@@ -39,6 +39,7 @@ Inspired by [Professor Rachel Thomas' class on computational linear algebra](htt
 - [ ] Monte Carlo methods
 - [ ] Lanczos algorithm
 - [ ] *k*-means and *c*-means clustering
+- [ ] T-distributed stochastic neighbor embedding (t-SNE)
 - [x] Optimization test problems
 - [ ] Convex optimization
 
@@ -47,14 +48,16 @@ Inspired by [Professor Rachel Thomas' class on computational linear algebra](htt
 - Graduated optimization
 
 ## Creating Conda environment
-'''
+```
 conda env create -f environment.yml
 conda activate linalg
-'''
+```
 
 ## Resources
 [fast.ai Computational Linear Algebra course](https://www.fast.ai/2017/07/17/num-lin-alg/)
 
 [Numerical Linear Algebra by Lloyd N. Trefethen and David Bau III](https://www.amazon.com/Numerical-Linear-Algebra-Lloyd-Trefethen/dp/0898713617)
 
-[Matrix Computations by Gene H. Golub and Charles F. Van Loan (4th Ed.)](https://www.amazon.com/Computations-Hopkins-Studies-Mathematical-Sciences/dp/1421407949)
+[Matrix Computations by Gene H. Golub and Charles F. Van Loan](https://www.amazon.com/Computations-Hopkins-Studies-Mathematical-Sciences/dp/1421407949)
+
+[Iterative Methods for Sparse Linear Systems by Yousef Saad](https://www.amazon.com/Iterative-Methods-Sparse-Linear-Systems/dp/0898715342)
