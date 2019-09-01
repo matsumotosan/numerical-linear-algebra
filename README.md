@@ -3,9 +3,14 @@ Jupyter notebooks on concepts from numerical/computational linear algebra.
 Inspired by [Professor Rachel Thomas' class on computational linear algebra](https://www.youtube.com/playlist?list=PLtmWHNX-gukIc92m1K0P6bIOnZb-mg0hY).
 
 ## Topics
-- [x] SVD and truncated SVD
-- [x] Non-negative matrix factorization (NMF) and sparse NMF
-- [x] Principal component analysis (PCA) and robust PCA
+- [x] SVD
+  - [x] Truncated SVD
+- [x] Non-negative matrix factorization (NMF)
+  - [x] Sparse NMF
+- [x] Principal component analysis (PCA)
+  -[x] Robust PCA
+- [ ] *k*-means clustering
+- [ ] *c*-means clustering
 - [ ] QR factorization
   - [ ] QR algorithm with Wilkinson shifts
 - [x] p-norms
@@ -25,6 +30,7 @@ Inspired by [Professor Rachel Thomas' class on computational linear algebra](htt
   - [ ] MR algorithm
 - [ ] Eigenvalue algorithms
   - [x] Power iteration
+  - [ ] Power method with shifts and deflation
   - [x] Inverse iteration
   - [ ] Rayleigh quotient iteration
   - [ ] Arnoldi iteration
@@ -32,13 +38,11 @@ Inspired by [Professor Rachel Thomas' class on computational linear algebra](htt
   - [ ] Cuppen's divide-and-conquer eigenvalue algorithm
 - [x] Conjugate gradient method
 - [ ] Krylov subspaces
-- [ ] Gauss-Legendre quadrature
-- [ ] Power Method with shifts and deflation
-- [ ] Golub-Kahan bidiagonalization with Householder reflectors
 - [ ] Generalized minimal residual method (GMRES)
+- [ ] Gauss-Legendre quadrature
+- [ ] Golub-Kahan bidiagonalization with Householder reflectors
 - [ ] Monte Carlo methods
 - [ ] Lanczos algorithm
-- [ ] *k*-means and *c*-means clustering
 - [ ] T-distributed stochastic neighbor embedding (t-SNE)
 - [x] Optimization test problems
 - [ ] Convex optimization
