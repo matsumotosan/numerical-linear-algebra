@@ -3,53 +3,60 @@ Jupyter notebooks on concepts from numerical/computational linear algebra.
 Inspired by [Professor Rachel Thomas' class on computational linear algebra](https://www.youtube.com/playlist?list=PLtmWHNX-gukIc92m1K0P6bIOnZb-mg0hY).
 
 ## Topics
+### Introduction
+- [x] p-norms
+- [ ] Lp-spaces
+- [x] Gauss-Legendre quadrature
+
+### Matrix decomposition
 - [x] SVD
   - [x] Truncated SVD
+  - [x] Randomized SVD
 - [x] Non-negative matrix factorization (NMF)
   - [x] Sparse NMF
 - [x] Principal component analysis (PCA)
   -[x] Robust PCA
-- [ ] *k*-means clustering
-- [ ] *c*-means clustering
 - [ ] QR factorization
   - [ ] QR algorithm with Wilkinson shifts
-- [x] p-norms
-- [ ] Lp-spaces
-- [ ] Regularization
-- [ ] Preconditioners
-  - [x] Jacobi
-  - [x] Gauss-Seidel
-  - [x] Cholesky factorization
+- [ ] Golub-Kahan bidiagonalization with Householder reflectors
+
+### Eigenvalue algorithms
+- [x] Power iteration
+- [ ] Power method with shifts and deflation
+- [x] Inverse iteration
+- [ ] Rayleigh quotient iteration
+- [ ] Arnoldi iteration
+- [ ] Lanczos algorithm
+- [ ] Cuppen's divide-and-conquer eigenvalue algorithm
+
+### Clustering
+- [ ] T-distributed stochastic neighbor embedding (t-SNE)
+- [ ] *k*-means clustering
+- [ ] *c*-means clustering
+- [ ] Spectral clustering
+
+### Preconditioners
+- [x] Jacobi
+- [x] Gauss-Seidel
+- [x] Cholesky factorization
   - [x] Incomplete Cholesky with zero-fill (IC(0))
   - [ ] Incomplete Cholesky with threshold dropping (ICT)
-  - [x] LDL factorization
-  - [x] Successive over-relaxation (SOR)
-  - [ ] Symmetric successive over-relaxation (SSOR)
-  - [ ] Incomplete LU factorization (ILU)
-  - [ ] Sparse approximate inverse (SPAI)
-  - [ ] MR algorithm
-- [ ] Eigenvalue algorithms
-  - [x] Power iteration
-  - [ ] Power method with shifts and deflation
-  - [x] Inverse iteration
-  - [ ] Rayleigh quotient iteration
-  - [ ] Arnoldi iteration
-  - [ ] Lanczos algorithm
-  - [ ] Cuppen's divide-and-conquer eigenvalue algorithm
-- [x] Conjugate gradient method
-- [ ] Krylov subspaces
+- [x] LDL factorization
+- [x] Successive over-relaxation (SOR)
+- [ ] Symmetric successive over-relaxation (SSOR)
+- [ ] Incomplete LU factorization (ILU)
+- [ ] Sparse approximate inverse (SPAI)
+- [ ] MR algorithm
+
+### Iterative methods
+- [x] Conjugate gradient (CG) method
+  -[x] Preconditioned CG method
 - [ ] Generalized minimal residual method (GMRES)
-- [ ] Gauss-Legendre quadrature
-- [ ] Golub-Kahan bidiagonalization with Householder reflectors
+- [ ] Krylov subspaces
 - [ ] Monte Carlo methods
-- [ ] Lanczos algorithm
-- [ ] T-distributed stochastic neighbor embedding (t-SNE)
-- [x] Optimization test problems
-- [ ] Convex optimization
 
 ## Possible future topics
-- [PyTorch optimization algorithms](https://pytorch.org/docs/stable/optim.html)
-- Graduated optimization
+- Randomized linear algebra
 
 ## Creating Conda environment
 ```
