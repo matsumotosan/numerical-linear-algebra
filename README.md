@@ -1,4 +1,7 @@
 # Numerical Linear Algebra
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/matsumotosan/numerical-linear-algebra/master)
+
 Jupyter notebooks on concepts from numerical/computational linear algebra.
 Inspired by [Professor Rachel Thomas' class on computational linear algebra](https://www.youtube.com/playlist?list=PLtmWHNX-gukIc92m1K0P6bIOnZb-mg0hY).
 
