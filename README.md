@@ -58,6 +58,9 @@ Inspired by [Professor Rachel Thomas' class on computational linear algebra](htt
 - [ ] Krylov subspaces
 - [ ] Monte Carlo methods
 
+## Other
+- [ ] Sparseness measure
+
 ## Possible future topics
 - Randomized linear algebra
 
