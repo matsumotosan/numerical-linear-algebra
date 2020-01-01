@@ -1,7 +1,6 @@
 .DS_Store
 .idea
 data
-nbs
 temp
 articles
 .ipynb_checkpoints
@@ -11,3 +10,4 @@ opt_test
 cnmf_ex.py
 playground.py
 *.icloud
+fastai_nbs
